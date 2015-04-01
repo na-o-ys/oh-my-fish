@@ -6,7 +6,7 @@
 #
 # Get the party started with:
 #
-#   curl -L https://github.com/bpinto/oh-my-fish/raw/master/tools/install.fish \
+#   curl -L https://github.com/na-o-ys/oh-my-fish/raw/master/tools/install.fish \
 #   | fish
 #
 # Oh-My-Fish currently supports
@@ -45,7 +45,7 @@ log white "Installing Oh My Fish..."
 
 # Allow installers to specify the source repository.
 if not set -q TRAVIS_REPO_SLUG
-  set TRAVIS_REPO_SLUG bpinto/oh-my-fish
+  set TRAVIS_REPO_SLUG na-o-ys/oh-my-fish
   set TRAVIS_BRANCH master
 end
 
